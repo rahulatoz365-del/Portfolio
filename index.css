@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth !important;
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    height:100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(0, 217, 255);
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+.firstSection > div{
+    width: 30%;
+}
+.firstSection p{
+    font-size:1.2rem;
+    padding-top: 20px;
+}
+main hr{
+    border: 0;
+    background:#9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.leftSection{
+    font-size: 3rem;
+}
+.rightSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightSection img{
+    width: 80%;
+    height: fit-content;
+    border-radius: 25px;
+}
+.purple{
+    color: rgb(170, 107, 228);
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+}
+.secondSection h1{
+    align-content: center;
+    font-size: xx-large;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.edu{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card {
+    border-radius: 25px;
+    color: black;
+    font-size: 1.2rem;
+    width: 30rem;
+    height: 17rem;
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+.card2{
+    padding-left: 45rem;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+ion-icon{
+    background-color: white;
+    border-radius: 15px;
+}
+.buttons {
+    border: none;
+    outline: none;
+    background-color: #6c5ce7;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+  }
+.buttons:hover{
+    cursor: pointer;
+}
+.buttons:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+}
+.button{
+    display: flex;
+    gap:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 3rem;
+}
+.card-container{
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+}
+/* From Uiverse.io by alexmaracinaru */ 
+.card {
+    width: 20rem;
+    height: 15rem;
+    background: #3405a3;
+    border-radius: 15px;
+    box-shadow: 1px 5px 60px 0px #100a886b;
+   }
+   
+   .card .card-border-top {
+    width: 60%;
+    height: 3%;
+    background: #6b64f3;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+   }
+   
+   .card span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 2rem;
+   }
+   
+   .card .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 3px;
+   }
+   .card button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background: #6b64f3;
+    color: white;
+    font-weight: 600;
+   }
+   
+   .card button:hover {
+    background: #534bf3;
+   }
+.thirdSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 130px 0;
+}
+.contact-left{
+    width: 80%;
+    height:50rem;
+    display: flex;
+    font-size: 2rem;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 4rem;
+    padding-left: 6rem;
+}
+.contact-left h1{
+    width: 250px;
+}
+.contact{
+    font-size: 7rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-right{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10rem;
+    align-items: center;
+}
+.contact-right img{
+    width: 40%;
+    height: fit-content;
+    border-radius: 25px;
+}
+.conatct-info{
+    height:50px;
+    justify-content: center;
+    width:300px;
+    background-color:whitesmoke;
+    border-radius: 25px;
+    outline: none;
+}
+.conatct-expo{
+    height:200px;
+    width:300px;
+    background-color:whitesmoke;
+    border-radius: 25px;
+    outline: none;
+}
+.contact textarea{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.contact input{
+    padding-left: 20px;
+}
+.contact button{
+    cursor: pointer;
+}
+.btn{
+    padding: 15px 40px;
+    background: #6c5ce7;
+    border:0;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: helvetica;
+    font-size: 12px;
+    letter-spacing: 3px;
+    position: relative;
+    transition:         all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    cursor: pointer;
+    display: block;
+    margin: 100px auto;
+  }
+  
+  .btn::after,
+  .btn::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+      opacity: 0;
+    transition:         all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  .btn::after{
+      width: 30px;
+      height: 1px;
+      background: white;
+      transform: translateX(-3px);
+      margin-top: 0px;
+  }
+  
+  .btn::before{
+      content: "";
+      transform: rotate(-135deg) translateX(50%);
+      width: 11px;
+      height: 11px;
+      background: transparent;
+      border-left: 1px solid white;
+      border-bottom: 1px solid white;
+    margin-top: -1px;
+  }
+  
+  
+  .btn:hover{
+    padding: 15px 60px 15px 20px;
+  }
+  
+  .btn:hover::after,
+  .btn:hover::before{
+    opacity: 1;
+    right: 15px;
+  }
+  
